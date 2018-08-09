@@ -33,8 +33,8 @@ runtime-bundle:
 application:
   activiti-cloud-query:
     image:
-      repository: miguelruiz/activiti-cloud-query
-      tag: develop
+      repository: activiti/activiti-cloud-query
+      tag: latest
       pullPolicy: Always
     db:
       name: querypostgresql
@@ -63,15 +63,15 @@ application:
 
   activiti-cloud-connector:
     image:
-      repository: miguelruiz/example-cloud-connector
-      tag: develop
+      repository: activiti/example-cloud-connector
+      tag: latest
       pullPolicy: Always
     enabled: true
 
   runtime-bundle:
     image:
-      repository: miguelruiz/example-runtime-bundle
-      tag: develop
+      repository: activiti/example-runtime-bundle
+      tag: latest
       pullPolicy: Always
     enabled: true
     extraEnv: |
@@ -111,8 +111,8 @@ application:
 
   activiti-cloud-audit:
     image:
-      repository: miguelruiz/activiti-cloud-audit
-      tag: develop
+      repository: activiti/activiti-cloud-audit
+      tag: latest
       pullPolicy: Always
     extraEnv: |
           - name: ACTIVITI_SECURITY_POLICIES_0_NAME
