@@ -52,6 +52,7 @@ application:
       repository: miguelruiz/example-cloud-connector
       tag: develop
       pullPolicy: Always
+    enabled: true
 
   runtime-bundle:
     image:
