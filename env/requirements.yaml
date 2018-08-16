@@ -13,3 +13,6 @@ dependencies:
 - name: application
   repository: https://activiti.github.io/activiti-cloud-charts/
   version: 0.1.16
+- name: rabbitmq
+  repository: https://kubernetes-charts.storage.googleapis.com
+  version: 0.8.0
