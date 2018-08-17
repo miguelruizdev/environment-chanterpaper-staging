@@ -1,4 +1,7 @@
 dependencies:
+- name: application
+  repository: https://activiti.github.io/activiti-cloud-charts/
+  version: 0.1.16
 - alias: expose
   name: exposecontroller
   repository: https://chartmuseum.build.cd.jenkins-x.io
@@ -10,9 +13,21 @@ dependencies:
 - name: infrastructure
   repository: https://activiti.github.io/activiti-cloud-charts/
   version: 0.1.8
+<<<<<<< HEAD
 - name: application
   repository: https://activiti.github.io/activiti-cloud-charts/
   version: 0.1.16
 - name: rabbitmq
   repository: https://kubernetes-charts.storage.googleapis.com
   version: 0.8.0
+=======
+- name: ttc-connectors-dummytwitter
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 1.0.43
+- name: ttc-dashboard-ui
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 0.0.37
+- name: ttc-infra-gateway
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 1.0.12
+>>>>>>> edb297164c2504937fd710c90a8e18809f6ae765
