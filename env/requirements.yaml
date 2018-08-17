@@ -7,6 +7,9 @@ dependencies:
   name: exposecontroller
   repository: https://chartmuseum.build.cd.jenkins-x.io
   version: 2.3.58
+- name: rabbitmq
+  repository: https://kubernetes-charts.storage.googleapis.com
+  version: 0.8.0
 - name: ttc-connectors-dummytwitter
   repository: http://jenkins-x-chartmuseum:8080
   version: 1.0.43
@@ -16,6 +19,6 @@ dependencies:
 - name: ttc-infra-gateway
   repository: http://jenkins-x-chartmuseum:8080
   version: 1.0.12
-- name: rabbitmq
-  repository: https://kubernetes-charts.storage.googleapis.com
-  version: 0.8.0
+- name: ttc-rb-english-campaign
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 1.0.2
