@@ -18,4 +18,4 @@ dependencies:
   version: 0.0.38
 - name: ttc-rb-english-campaign
   repository: http://jenkins-x-chartmuseum:8080
-  version: 1.0.3
+  version: 1.0.4
