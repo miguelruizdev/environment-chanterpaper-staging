@@ -22,6 +22,9 @@ dependencies:
 - name: ttc-connectors-ranking
   repository: http://jenkins-x-chartmuseum:8080
   version: 1.0.25
+- name: ttc-connectors-reward
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 1.0.18
 - name: ttc-dashboard-ui
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.0.38
