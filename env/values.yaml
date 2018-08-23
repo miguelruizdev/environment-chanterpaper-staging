@@ -77,6 +77,3 @@ rabbitmq:
     password: "guest"
   ingress:
     enabled: true
-
-postgresql:
-   postgresPassword: activiti
