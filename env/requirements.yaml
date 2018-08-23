@@ -24,7 +24,7 @@ dependencies:
   version: 1.0.31
 - name: ttc-connectors-reward
   repository: http://jenkins-x-chartmuseum:8080
-  version: 1.0.20
+  version: 1.0.22
 - name: ttc-dashboard-ui
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.0.38
