@@ -21,7 +21,7 @@ dependencies:
   version: 1.0.25
 - name: ttc-connectors-ranking
   repository: http://jenkins-x-chartmuseum:8080
-  version: 1.0.26
+  version: 1.0.27
 - name: ttc-connectors-reward
   repository: http://jenkins-x-chartmuseum:8080
   version: 1.0.19
