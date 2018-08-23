@@ -30,4 +30,4 @@ dependencies:
   version: 1.0.30
 - name: ttc-rb-english-campaign
   repository: http://jenkins-x-chartmuseum:8080
-  version: 1.0.7
+  version: 1.0.10
