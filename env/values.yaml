@@ -35,7 +35,9 @@ infrastructure:
       keycloak:
         username: admin
         password: admin
-        extraEnv: "PROXY_ADDRESS_FORWARDING=true"
+        extraEnv: |
+          - name: PROXY_ADDRESS_FORWARDING
+            value: true
         persistence:
           deployPostgres: false
           dbVendor: H2
