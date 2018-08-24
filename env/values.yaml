@@ -36,8 +36,8 @@ infrastructure:
         username: admin
         password: admin
         extraEnv: |
-          - name: "PROXY_ADDRESS_FORWARDING"
-            value: true
+          - name: PROXY_ADDRESS_FORWARDING
+            value: "true"
         persistence:
           deployPostgres: false
           dbVendor: H2
