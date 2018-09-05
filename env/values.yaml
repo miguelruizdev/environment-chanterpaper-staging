@@ -67,7 +67,7 @@ infrastructure:
   activiti-cloud-gateway:
     image:
       repository: miguelruiz/activiti-cloud-gateway
-      tag: test3
+      tag: test4
       pullPolicy: Always
     ingress:
       enabled: true
