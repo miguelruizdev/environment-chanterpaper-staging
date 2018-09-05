@@ -67,11 +67,11 @@ infrastructure:
   activiti-cloud-gateway:
     image:
       repository: miguelruiz/activiti-cloud-gateway
-      tag: test2
+      tag: test3
       pullPolicy: Always
-    # ingress:
-    #   enabled: true
-    #   hostName: "activiti-cloud-gateway.jx-staging.35.189.236.129.nip.io"
+    ingress:
+      enabled: true
+      hostName: "activiti-cloud-gateway.jx-staging.35.189.236.129.nip.io"
     #   annotations:
     #     kubernetes.io/ingress.class: nginx
     #     nginx.ingress.kubernetes.io/rewrite-target: /
