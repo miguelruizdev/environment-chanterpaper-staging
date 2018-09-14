@@ -10,27 +10,9 @@ dependencies:
 - name: infrastructure
   repository: https://activiti.github.io/activiti-cloud-charts/
   version: 0.2.0
+- name: maven-samples
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 1.0.2
 - name: rabbitmq
   repository: https://kubernetes-charts.storage.googleapis.com
   version: 0.8.0
-# - name: ttc-connectors-dummytwitter
-#   repository: http://jenkins-x-chartmuseum:8080
-#   version: 1.0.56
-# - name: ttc-connectors-processing
-#   repository: http://jenkins-x-chartmuseum:8080
-#   version: 1.0.28
-# - name: ttc-connectors-ranking
-#   repository: http://jenkins-x-chartmuseum:8080
-#   version: 1.0.32
-# - name: ttc-connectors-reward
-#   repository: http://jenkins-x-chartmuseum:8080
-#   version: 1.0.22
-# - name: ttc-dashboard-ui
-#   repository: http://jenkins-x-chartmuseum:8080
-#   version: 0.0.38
-# - name: ttc-query-campaign
-#   repository: http://jenkins-x-chartmuseum:8080
-#   version: 1.0.41
-# - name: ttc-rb-english-campaign
-#   repository: http://jenkins-x-chartmuseum:8080
-#   version: 1.0.10
