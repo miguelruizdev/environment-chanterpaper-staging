@@ -78,6 +78,11 @@ infrastructure:
         nginx.ingress.kubernetes.io/enable-cors: true
         nginx.ingress.kubernetes.io/cors-allow-headers: "*"
         nginx.ingress.kubernetes.io/x-forwarded-prefix: true
+        nginx.ingress.kubernetes.io/configuration-snippet: |
+              more_set_headers 'Access-Control-Allow-Methods: "POST, GET, OPTIONS, PUT, PATCH, DELETE"';
+              more_set_headers 'Access-Control-Allow-Credentials: true';
+              more_set_headers 'Access-Control-Allow-Headers: "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization"';
+              more_set_headers 'Access-Control-Allow-Origin: $http_origin';
 
 rabbitmq:
   rabbitmq:
